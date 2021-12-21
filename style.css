@@ -1,0 +1,168 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    background-color: #1F2937;
+}
+
+.left-link, .right-links {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #1F2937;
+    height: 500px;
+}
+
+.intro-message {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   font-size: 18px;
+   color: #E5E7EB;
+   width: 500px;
+}
+
+.intro-picture {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.button {
+    background-color: #3882F6;
+    font-size: 20px;
+    padding: 7px;
+    width: 100px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.headline {
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    font-size: 36px;
+    font-weight: 999;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items; center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.info {
+    max-width: 400px;
+}
+
+.caption {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 150px;
+    color: #525457;
+}
+
+.container img {
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6;
+    border-radius: 12px;
+}
+
+.containment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    font-size: 26px;
+}
+
+.person {
+    display: flex;
+    margin: 10px;
+    margin-left: 200px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+
+.blue-box {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    padding: 30px;
+    width: 900px;
+    color: white;
+    font-family: Arial;
+    border: none;
+    border-radius: 12px;
+}
+
+.foot-button {
+    margin-left: 60px; 
+}
